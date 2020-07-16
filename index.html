@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Homepage</title>
+  </head>
+  <body>
+    <main>
+         <div class="typewriter">
+            <h1 class="display-4">Lyric ipsum</h1>
+            <p class="lead text-center">Generate <a href="https://en.wikipedia.org/wiki/Lorem_ipsum"><u>Lorem Ipsum</u></a> from your favourite song's lyrics </p>
+         </div>
+        
+         <section>
+           <div class="row">
+                <div class="col">
+                    <h1>Artist Name</h1>
+                    <h2>Try below!</h2>
+                    <div class="search-box">
+                        <div class="search-icon"><i class="fa fa-search search-icon"></i></div>
+                        <form action="" class="search-form">
+                            <input required type="text" placeholder="Search" id="search1" class="singer" autocomplete="off">
+                        </form>
+                        <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
+                         xml:space="preserve">
+                          <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>
+                          <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"/>
+                        </svg>
+                        <div class="go-icon"><i class="fa fa-arrow-right"></i></div>
+                    </div>
+                    <small class="text-danger error-singer"></small>
+                </div>
+
+               <div class="col">
+                    <h1>Song Name</h1>
+                    <h2>Try below!</h2>
+                    <div class="search-box">
+                        <div class="search-icon"><i class="fa fa-search search-icon"></i></div>
+                        <form action="" class="search-form">
+                            <input type="text" placeholder="Search" id="search1" class="song" autocomplete="off">
+                        </form>
+                        <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
+                         xml:space="preserve">
+                          <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>
+                          <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"/>
+                        </svg>
+                        <div class="go-icon"><i class="fa fa-arrow-right"></i></div>
+                    </div>
+                    <small class="text-danger error-song"></small>
+               </div>
+           </div>
+
+           <div class="wrapper">
+                <button class="btn btn-result text-center bordered btn-lg btn-success">Click to get results</button> 
+           </div>         
+         </section>
+
+        <div class="text-center">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

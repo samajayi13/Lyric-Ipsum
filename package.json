@@ -1,0 +1,14 @@
+{
+  "name": "song_word_project",
+  "version": "1.0.0",
+  "description": "Gets the top 5 words from song",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Ajayi",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
