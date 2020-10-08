@@ -1,6 +1,8 @@
 # Lyric-Ipsum
 Used HTML,CSS,Javascript and PHP to create a Lorem Ipsum generator using your favorite song's lyric. The user simply only has to enter the artist name as well as the song name and a lorem ipsum will be generated.
 
+For video demo please watch:- https://www.youtube.com/watch?v=v50RAJcTEB0
+
 [![lyricipsum-2.png](https://i.postimg.cc/ZKfbmLF1/lyricipsum-2.png)](https://postimg.cc/mtHfNCnw)
 
 [![ipsum2-2.png](https://i.postimg.cc/ZnjzHT5W/ipsum2-2.png)](https://postimg.cc/XBZP76FW)
@@ -9,4 +11,4 @@ Used HTML,CSS,Javascript and PHP to create a Lorem Ipsum generator using your fa
 
 [![ipsum3-2.png](https://i.postimg.cc/66hKthfB/ipsum3-2.png)](https://postimg.cc/3WWVZmqq)
 
-For video demo please watch:- https://www.youtube.com/
+
